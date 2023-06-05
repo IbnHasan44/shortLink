@@ -44,12 +44,16 @@ input {
 .footer {
     color: #fff;
     font-size: .8rem;
-    bottom:0%;
+    bottom: 0%;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);}
+    width: 100%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
 
-    
+
 @media screen and (max-width:500px){
 .Input-class {
     width: 80%;
